@@ -85,7 +85,7 @@ Vous devez remettre votre travail dans un dossier .zip, nommé avec votre nom et
 ## :woman_technologist: Created by
 
 ### Mariana Neri
-ola@mariananeri.com | https://github.com/mariananeri
+ola@mariananeri.com | https://github.com/mariananeri | https://mariananeri.github.io/TP3_JS
 
 ## References
 
