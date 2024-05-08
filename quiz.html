@@ -27,12 +27,17 @@
         </header>
         <main">
             <div class="contenu">
-                <section data-page="1" class="question__section">
+                <!-- PANNEAU DEBUT -->
+                <section class="question__section quiz-panneau-debut">
                     <h1 class="quiz_bievenue">Bievenue au quiz sur lorem ipsum</h1>
-                    <button data-direction="1" class="btn_Start">démarrer</button>
+                    <div class="bouton bouton_start" data-action="demarrer-quiz">Démarrer</div>
                 </section>
+                <!-- AFFICHER LES QUESTIONS ICI -->
+                <div class="quiz-conteneur">
+
+                </div>
                 <!-- <template id="question"> -->
-                <section data-page="2" class="question__section">
+                <section class="question__section">
                     <div class="question__info">
                         <div class="question__numero">
                             <h4>QUESTION 1 de 5</h4>
@@ -43,12 +48,18 @@
                     </div>
                     <h3 class="question__titre">Lorem Ipsum?</h3>
                     <ul class="question__options">
-                        <li><button data-direction="1" class="btn_Reponse">reponse1</button></li>
-                        <li><button data-direction="2" class="btn_Reponse">reponse 2</button></li>
-                        <li><button data-direction="3" class="btn_Reponse">reponse 3</button></li>
+                        <li class="bouton bouton_choix">reponse 1</li>
+                        <li class="bouton bouton_choix">reponse 2</li>
+                        <li class="bouton bouton_choix">reponse 3</li>
                     </ul>
                 </section>
                 <!-- </template> -->
+                <!-- PANNEAU FIN -->
+                <section class="question__section quiz-panneau-fin">
+                    <h2 class="score-fin">Votre total de points:<br><span class="score">5/10</span></h2>
+                    <h3 class="message-fin">Merci pour votre participation! 🏆</h3>
+                    <div class="bouton_start bouton" data-action="reinit-quiz">Recommencer</div>
+                </section>
             </div>
             </main>
             <!-- BAS DE PAGE (main.js) -->

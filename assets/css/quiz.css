@@ -70,34 +70,65 @@
     color: var(--plum);
 }
 
+.score-fin {
+    color: black;
+    text-align: center;
+}
+
+.score {
+    color: var(--orange);
+}
+
+.message-fin {
+    font-family: "DM Sans", sans-serif;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 300;
+}
+
 /* BOUTONS */
 
-.btn_Start {
-    font-size: 1.5rem;
-    max-width: fit-content;
-    padding: 10px 20px;
-    align-self: center;
-    background-color: var(--indigo);
+.bouton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: all 350ms;
+    box-shadow: none;
+    outline: none;
     border: none;
-    margin-top: 10px;
-    transition: all 100ms ease-in-out;
-    font-family: "DM Sans", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
-    text-transform: uppercase;
 }
 
-.btn_Reponse {
-    font-size: 1.5rem;
-    max-width: fit-content;
-    padding: 10px 20px;
-    align-self: center;
-    background-color: var(--indigo);
-    border: none;
-    margin-top: 10px;
-    transition: all 100ms ease-in-out;
-    font-family: "DM Sans", sans-serif;
+.bouton:hover {
+    background-color: var(--orange);
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+
+.bouton_choix {
     font-size: 1.2rem;
-    font-weight: 400;
+    background-color: var(--plum);
+    color: white;
+    text-transform: capitalize;
+}
+
+.bouton.bonne-reponse {
+    background-color: var(--orange);
+    pointer-events: none;
+}
+
+.bouton.inactif {
+    background-color: gray;
+    pointer-events: none;
+}
+
+.bouton_start {
+    background-color: var(--indigo);
+    pointer-events: auto;
+    font-size: 1.5rem;
     text-transform: uppercase;
 }
+  
