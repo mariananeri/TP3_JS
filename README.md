@@ -83,10 +83,9 @@ Vous devez remettre votre travail dans un dossier .zip, nommé avec votre nom et
 * L'étudiant.e a montré l'avancement de son travail à son enseignant.e
 
 ## :woman_technologist: Created by
-
 ### Mariana Neri
-ola@mariananeri.com | https://github.com/mariananeri | https://mariananeri.github.io/TP3_JS
+ola@mariananeri.com | https://github.com/mariananeri | <a href="https://mariananeri.github.io/TP3_JS" target="_blank">https://mariananeri.github.io/TP3_JS</a> 
 
 ## References
 
-Maxime Lacasse-Germain, demo en classe 15, 16 et 17 (mai/2024) _link github.io_
+Maxime Lacasse-Germain, demo en classe 15, 16 et 17 (mai/2024) 
