@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div>
         <!-- en-tête de page -->
         <header>
             <nav id="nav-principale">
@@ -25,45 +25,39 @@
                 <ul class="nav__liste"></ul>
             </nav>
         </header>
-        <main">
+        <main>
             <div class="contenu">
                 <!-- PANNEAU DEBUT -->
-                <section class="question__section quiz-panneau-debut">
-                    <h1 class="quiz_bievenue">Bievenue au quiz sur lorem ipsum</h1>
-                    <div class="bouton bouton_start" data-action="demarrer-quiz">Démarrer</div>
+                <section class="quiz-panneau-debut question__section animationDebut">
+                    <img src="assets/img/undraw_illustration.svg" alt="illustration" width="300px">
+                    <h1 class="quiz_bievenue">Bievenue au quiz sur la littérature québécoise</h1>
+                    <div class="bouton bouton_start invisible" data-action="demarrer-quiz">Démarrer</div>
                 </section>
                 <!-- AFFICHER LES QUESTIONS ICI -->
-                <div class="quiz-conteneur">
-
-                </div>
-                <!-- <template id="question"> -->
-                <section class="question__section">
-                    <div class="question__info">
-                        <div class="question__numero">
-                            <h4>QUESTION 1 de 5</h4>
-                        </div>
-                        <div class="question__points">
-                            <h4>Points 0 sur 5</h4>
-                        </div>
-                    </div>
-                    <h3 class="question__titre">Lorem Ipsum?</h3>
-                    <ul class="question__options">
-                        <li class="bouton bouton_choix">reponse 1</li>
-                        <li class="bouton bouton_choix">reponse 2</li>
-                        <li class="bouton bouton_choix">reponse 3</li>
-                    </ul>
-                </section>
-                <!-- </template> -->
+                <div class="quiz-conteneur"></div>
+                <!-- TEMPLATE QUESTION -->
+                <template id="question">
+                    <section class="question__section">
+                        <h3 class="question__titre">Lorem Ipsum?</h3>
+                        <ul class="question__options">
+                            <li class="bouton bouton_choix">reponse 1</li>
+                            <li class="bouton bouton_choix">reponse 2</li>
+                            <li class="bouton bouton_choix">reponse 3</li>
+                        </ul>
+                        <h4 class="pointage"></h4>
+                        <p class="message-reponse"></p>
+                    </section>
+                </template>
                 <!-- PANNEAU FIN -->
-                <section class="question__section quiz-panneau-fin">
-                    <h2 class="score-fin">Votre total de points:<br><span class="score">5/10</span></h2>
+                <section class="quiz-panneau-fin question__section">
+                    <h2 class="score-fin">Total de points: <span class="pointage">0</span></h2>
                     <h3 class="message-fin">Merci pour votre participation! 🏆</h3>
                     <div class="bouton_start bouton" data-action="reinit-quiz">Recommencer</div>
                 </section>
             </div>
-            </main>
-            <!-- BAS DE PAGE (main.js) -->
-            <footer></footer>
+        </main>
+        <!-- BAS DE PAGE (main.js) -->
+        <footer></footer>
     </div>
 </body>
 

@@ -1,11 +1,6 @@
 //==== QUESTIONS SUR LITTÉRATURE QUÉBÉCOISE
 export let questions = [
   {
-    question: "Qui a écrit « La terre paternelle » ?",
-    reponses: ["Louis Hémon", "Patrice Lacombe", "Maxime Lacasse-Germain"],
-    bonneReponse: "Patrice Lacombe",
-  },
-  {
     question: "Quel roman signé Claude-Henri Grignon devint un énorme succès, puis un téléroman?",
     reponses: ["Un homme et son péché", "Les anciens canadiens", "Les Belles-Soeurs"],
     bonneReponse: "Un homme et son péché",    
@@ -19,6 +14,11 @@ export let questions = [
     question: "Qui a écrit « Les Belles-Soeurs » ?",
     reponses:  ["Maxime Pigeon", "Jean-Paul Desbiens", "Michel Tremblay"],
     bonneReponse: "Michel Tremblay",    
+  },
+  {
+    question: "Qui a écrit « La terre paternelle » ?",
+    reponses: ["Louis Hémon", "Patrice Lacombe", "Maxime Lacasse-Germain"],
+    bonneReponse: "Patrice Lacombe",
   },
   {
     question: "Dans quelle région du Québec se déroule l'histoire de « Un homme et son péché» ?",

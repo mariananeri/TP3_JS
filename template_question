@@ -1,0 +1,18 @@
+<!-- <template id="question"> -->
+<section class="question__section">
+    <div class="question__info">
+        <div class="question__numero">
+            <h4>QUESTION 1 de 5</h4>
+        </div>
+        <div class="question__points">
+            <h4>Points 0 sur 5</h4>
+        </div>
+    </div>
+    <h3 class="question__titre">Lorem Ipsum?</h3>
+    <ul class="question__options">
+        <li class="bouton bouton_choix">reponse 1</li>
+        <li class="bouton bouton_choix">reponse 2</li>
+        <li class="bouton bouton_choix">reponse 3</li>
+    </ul>
+</section>
+<!-- </template> -->

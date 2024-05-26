@@ -10,7 +10,7 @@ class Pointage {
   }
 
   afficherPoints() {
-    this.elementHTML.textContent = `${this.points} pts`;
+    this.elementHTML.textContent = `${this.points} points!`;
   }
 }
 
